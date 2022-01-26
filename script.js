@@ -1,5 +1,4 @@
-
-      
+//https://www.jqueryscript.net/demo/Fully-Responsive-Flexible-jQuery-Carousel-Plugin-slick site carousel
 //slider multiple
 $('.Slider').slick({
     slidesToShow: 3,
