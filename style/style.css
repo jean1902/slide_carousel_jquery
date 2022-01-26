@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* jquery */
+
+/* slider  multiple */
+.Slider{
+   
+    margin: 30px auto;
+    height: 200px; 
+    display: flex;
+
+}
+.Slider_rest{
+    margin: 30px auto;
+    height: 200px; 
+    display: flex;
+
+}
+.img_div{
+    width: 500px;
+    height: 200px;
+    margin: 0 15px; 
+}
+.slick-next ,.slick-prev{
+   position: absolute;
+   z-index: 1000;
+   top: 50%;
+   background-color: transparent;
+   border: none;
+   background-color: rgb(110, 82, 82);
+   padding: 5px;
+   cursor: pointer;
+    border-radius: 9999px;
+   
+   
+}
+.slick-next {
+    left: 0;
+}
+.slick-prev{
+    right: 0;
+}
+
+
+.div1{
+    background-image: url('../image/img_mountains_wide.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.div2{
+    background-image: url('../image/img_nature_wide.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div3{
+    background-image: url('../image/img_snow_wide.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div4{
+    background-image: url('../image/img_nature_wide.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
